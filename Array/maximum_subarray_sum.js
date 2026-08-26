@@ -1,6 +1,7 @@
 
 
 // Maximum Subarray sum (Kadane's Algorithm)
+
                                   // Frist print all Maximum subarry
 let array = [1,2,3,4,5]
 for (let start=0; start<array.length; start++ ){
@@ -31,7 +32,9 @@ console.log(`Maximum Subarray sum :${maxSum}`)
 
 
 
-                            // Print mnaximum subarray Sum BY most optimized (kadane's Algorithm)
+                            // Print mnaximum subarray Sum BY most optimized (kadane's 
+                            //Algorithm)
+                            1 2 3 4 5 
 let array =[-2, 1, -3, 4, -1, 2, 1, -5, 4];
 let currSum =0; 
 let  maxSum = -Infinity;
