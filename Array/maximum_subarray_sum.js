@@ -34,7 +34,7 @@ console.log(`Maximum Subarray sum :${maxSum}`)
 
                             // Print mnaximum subarray Sum BY most optimized (kadane's 
                             //Algorithm)
-                            1 2 3 4 5 
+                        
 let array =[-2, 1, -3, 4, -1, 2, 1, -5, 4];
 let currSum =0; 
 let  maxSum = -Infinity;

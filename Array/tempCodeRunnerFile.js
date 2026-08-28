@@ -1,11 +1,14 @@
-let array =[-2, 1, -3, 4, -1, 2, 1, -5, 4];
-let currSum =0; 
-let  maxSum = -Infinity;
-for (let i=0; i<array.length; i++){
-    currSum += array[i]
-    maxSum = Math.max(currSum,maxSum)
-    if(currSum<0){
-        currSum=0;
+function mypow(x,n){
+    let binaryForm = n;
+    let ans = 1;
+    
+    while(binaryForm>0){
+        if(binaryForm % 2 == 1){
+            ans *= x
+        }
+        x *= x;
+        binaryForm = Math.floor(binaryForm / 2);
     }
+    return ans;
 }
-console.log(`Maximum Subarray sum :${maxSum}`)
+console.log(mypow(3,5))
